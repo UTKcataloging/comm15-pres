@@ -16,7 +16,7 @@
 <identifier type="local">{{cells["Identifier"].value}}</identifier>
 {{if(isBlank(cells['Title'].value), '', '<titleInfo supplied="yes"><title>' + cells["Title"].value + '</title></titleInfo>')}}
 <abstract>{{cells["abstract"].value}}</abstract>
-{{if(isBlank(cells['date_created_year'].value), '', '<originInfo><dateCreated>' + cells['date_created_year'].value + '</dateCreated><dateCreated encoding="edtf" keyDate="yes">' + cells['date_created_season'].value + '</dateCreated><dateCreated encoding="edtf">' + cells['date_created_season'].value + '</dateCreated></originInfo>')}}
+{{if(isBlank(cells['date_created_year'].value), '', '<originInfo><dateCreated>' + cells['date_created_year'].value + '</dateCreated><dateCreated encoding="edtf" keyDate="yes">' + cells['date_created_season'].value + '</dateCreated></originInfo>')}}
 <physicalDescription><form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form><extent>{{cells["Extent"].value}}</extent></physicalDescription>
 {{if(isBlank(cells['subject1'].value), '', '<subject authority="lcsh" valueURI="' + cells['subject1_URI'].value + '"><topic>' + cells['subject1'].value + '</topic></subject>')}}
 {{if(isBlank(cells['subject2'].value), '', '<subject authority="lcsh" valueURI="' + cells['subject2_URI'].value + '"><topic>' + cells['subject2'].value + '</topic></subject>')}}
