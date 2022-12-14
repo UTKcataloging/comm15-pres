@@ -35,6 +35,12 @@
          <namePart>University of Tennessee, Knoxville</namePart>
       </name>
    </subject>
+   <subject authority="naf"
+      valueURI="http://id.loc.gov/authorities/names/no2022148168">
+      <name>
+         <namePart>University of Tennessee (System). Herbert College of Agriculture</namePart>
+      </name>
+   </subject>
    <classification authority="lcc">LD5297 .U55</classification>
    <language>
       <languageTerm type="text" authority="iso639-2b">English</languageTerm>
